@@ -1,2 +1,8 @@
-#!/bin/bash
-gcc -c fputs("Programming is like building a multilingual puzzle")
+/* my first c program */
+#include<stdio.h>
+
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle";
+	return (0);
+}
