@@ -12,13 +12,12 @@ int main(void)
 {
 	int n, m;
 
-	for (n = 48; n <= 57; n++)
+	for (m = 1; m < 100; m++)
 	{
-		for (m = 48; m <= 57; m++)
+		for (m = n;;)
 		{
-			putchar(n);
-			putchar(m);
-			if (n != 57 || m != 57)
+			if (i / 10 % 10 > i % 10) break;
+			 if ((i /= 10) == 0)
 			{
 				putchar(',');
 				putchar(' ');
