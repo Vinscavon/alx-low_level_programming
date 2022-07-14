@@ -10,7 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int i, x;
 
 	i = 0;
 	x = 0;
